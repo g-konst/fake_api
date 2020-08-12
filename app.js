@@ -214,7 +214,7 @@ const bodyParser = (obj, fake_obj) => {
       ? Object.fromEntries(Object.entries(fake_obj).sort())
       : fake_obj
   }
-  return obj_arr
+  return obj["_repeats"] == 0 ? obj_arr[0] : obj_arr
 }
 
 app.use(express.json())
