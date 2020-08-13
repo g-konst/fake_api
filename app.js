@@ -184,7 +184,7 @@ const FakerDataTypes = {
 
 
 const bodyParser = (obj, fake_obj) => {
-  let repeats = obj['_repeats'] || 1,
+  let repeats = +obj['_repeats'] || 1,
       obj_arr = [],
       sorted = obj['_sorted']
 
@@ -224,9 +224,13 @@ app.get('/', (req, res, next) => {
 
 app.all('/api/*', (req, res, next) => {
   let response;
+  let data = {
+    ...req.body,
+    ...req.query
+  }
   try {
-    faker.locale = req.query.locale || 'en'
-    response = bodyParser(req.body)
+    faker.locale = data.locale || 'en'
+    response = bodyParser(data)
   } catch (error) {
     response = {'error': error.name}
   } finally {
