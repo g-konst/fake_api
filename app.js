@@ -209,7 +209,7 @@ const bodyParser = (obj, fake_obj) => {
         }
       }
       )
-    if (!fake_obj['id']) fake_obj['id'] = repeats
+    if (fake_obj['id'] === '') fake_obj['id'] = repeats
     obj_arr[repeats] = sorted
       ? Object.fromEntries(Object.entries(fake_obj).sort())
       : fake_obj
