@@ -222,7 +222,7 @@ app.get('/', (req, res, next) => {
   res.json(FakerDataTypes)
 })
 
-app.all('/api/*', (req, res, next) => {
+app.all('/api/?(\W*|$)', (req, res, next) => {
   let response;
   let data = {
     ...req.body,
