@@ -1,5 +1,6 @@
 [![Donate](https://img.shields.io/badge/PayPal-Donate-coral.svg?logo=paypal)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=TLYVDH7FVHDLS)
-![node_version](https://img.shields.io/badge/node-%3E%3D10.0.0-brightgreen.svg)
+![node_version](https://img.shields.io/badge/node-%3E%3D10.0.0-brightgreen.svg?logo=Node.js)
+[![Heroku](https://img.shields.io/badge/Heroku-fakeapi-blueviolet.svg?logo=Heroku)](https://gkonst-fakeapi.herokuapp.com/)
 
 # fakeAPI
 
