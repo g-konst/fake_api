@@ -1,5 +1,5 @@
 {
-  "name": "fake_api",
+  "name": "fakeApi",
   "version": "1.0.0",
   "description": "Simple app that return a fake data for your API request",
   "main": "app.js",
