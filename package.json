@@ -1,6 +1,6 @@
 {
   "name": "@g-konst/fake_api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple app that return a fake data for your API request",
   "main": "app.js",
   "scripts": {
@@ -11,7 +11,10 @@
     "url": "https://github.com/g-konst/fake_api/issues",
     "email": "k.grudnitskiy@yandex.ru"
   },
-  "keywords": ["API","faker"],
+  "keywords": [
+    "API",
+    "faker"
+  ],
   "author": {
     "name": "Konstantin Grudnitskiy",
     "email": "k.grudnitskiy@yandex.ru"
