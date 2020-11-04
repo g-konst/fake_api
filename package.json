@@ -1,5 +1,5 @@
 {
-  "name": "@g-konst/fake_api",
+  "name": "fake_api",
   "version": "1.0.0",
   "description": "Simple app that return a fake data for your API request",
   "main": "app.js",
@@ -21,5 +21,11 @@
     "express": "^4.17.1",
     "faker": "^4.1.0"
   },
-  "repository": "github:g-konst/fake_api"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g-konst/fake_api"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/@g-konst"
+},
 }
