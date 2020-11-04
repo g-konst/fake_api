@@ -24,8 +24,5 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/g-konst/fake_api"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
   }
 }
