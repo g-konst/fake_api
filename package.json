@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node app.js"
   },
-  "homepage": "https://github.com/g-konst/fake-api",
+  "homepage": "https://github.com/g-konst/fake_api",
   "bugs": {
     "url": "https://github.com/g-konst/fake_api/issues",
     "email": "k.grudnitskiy@yandex.ru"
