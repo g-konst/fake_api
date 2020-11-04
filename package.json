@@ -1,16 +1,25 @@
 {
   "name": "fake_api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple app that return a fake data for your API request",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
+  "homepage": "https://github.com/g-konst/fakeApi",
+  "bugs": {
+    "url": "https://github.com/g-konst/fakeApi/issues",
+    "email": "k.grudnitskiy@yandex.ru"
+  },
+  "keywords": ["API","faker"],
+  "author": {
+    "name": "Konstantin Grudnitskiy",
+    "email": "k.grudnitskiy@yandex.ru"
+  },
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "faker": "^4.1.0"
-  }
+  },
+  "repository": "github:g-konst/fakeApi"
 }
